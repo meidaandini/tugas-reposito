@@ -1,0 +1,22 @@
+div {
+	width: 500px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.satu {
+	background-color: aqua;
+	width: 450px;
+	height: auto;
+	padding: 30px;
+	border: 15px solid black;
+
+}
+
+.dua {
+	background-color: pink;
+	width: 450px;
+	height: auto;
+	padding: 50px;
+	border: 10px dashed red;
+}
