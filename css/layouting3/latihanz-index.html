@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan Z-index</title>
+	<style>
+		div {
+			width: 250px;
+			height: 250px;
+			position: absolute;
+		}
+		.satu { 
+			background-color: darkgrey;
+			z-index: 1;
+			 }
+		.dua {
+			background-color: lightblue;
+			top: 50px;
+			left: 50px; 
+			}
+		.tiga { 
+			background-color: aqua;
+			top: 100px;
+			left: 100px;
+			z-index: 2;
+			font: 35px arial;
+			text-align: center;
+		    }
+		.empat { 
+			background-color: yellow; 
+			top: 150px;
+			left: 150px;
+			}
+	</style>
+</head>
+<body>
+
+	<div class="satu"></div>
+	<div class="dua"></div>
+	<div class="tiga">yuhuuu</div>
+	<div class="empat"></div>
+
+</body>
+</html>
